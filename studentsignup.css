@@ -1,0 +1,118 @@
+.square{
+    width: 27cm;
+    height: 15cm;
+    position: relative;
+    right: -170px;
+    top: 50px;
+    background: white;
+    border-radius: 3px;
+}
+
+.registration{
+    padding: 20px 0px 10px 20px;
+    color: blue;
+}
+
+.personal{
+    padding: 0px 0px 10px 30px;
+    font-size: 23px;
+}
+
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px 20px 0px;
+}
+
+.input2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 5px 20px;
+}
+
+#name{
+    width: 7cm;
+    height: 1cm;
+    margin: 0px 20px 10px 20px;
+    border: 0.001cm rgba(0, 0, 0, 0.363) solid;
+    border-radius: 5px;
+    background-color: #cccccc;
+    outline: none;
+    padding: 0px 10px;
+    font-weight: bolder;
+}
+
+.submit{
+    width: 5cm;
+    height: 1cm;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    left: 70px;
+    background: rgba(0, 0, 255, 0.788);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.submit2{
+    color: white;
+}
+
+
+.already{
+    margin-left: 400px;
+    color: black;
+    width: 10cm;
+    height: 1cm;
+    font-size: 18px;
+    position: relative;
+    background: rgba(0, 0, 255, 0.788);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup{
+    color: white;
+}
+
+@media (max-width: 375px){
+    .input{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10px 20px 0px;
+    }
+    
+    .input2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 5px 20px;
+    }
+
+    .square{
+        position: relative;
+        display: inline-block;
+        top: 50px;
+        left: 16px;
+        width: 8.7cm;
+        height: 37cm;
+    }
+
+    .already{
+        margin-left: 30px;
+        color: black;
+        width: 7cm;
+        height: 1.3cm;
+        font-size: 19px;
+        position: relative;
+        top: 30px;
+        background: rgba(0, 0, 255, 0.788);
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+}
+

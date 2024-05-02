@@ -1,0 +1,180 @@
+.square{
+    border-radius: 20px;
+    background: #cccccc;
+    width: 10cm;
+    height: 10cm;
+    position: relative;
+    top: 115px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.login{
+    position: relative;
+    top: 45px;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.square2{
+    border-radius: 30px;
+    background: #cccccc;
+    width: 7cm;
+    height: 2cm;
+    position: relative;
+    top: 80px;
+    right: 10px;
+    left: 5px;
+    z-index: -1;
+}
+
+.circle{
+    background: #003366;
+    border-radius: 80px;
+    width: 3cm;
+    height: 3cm;
+    position: relative;
+    top: -56px;
+}
+
+.userpic{
+        width: 100px;
+        padding: 10px 10px 8px 8px;
+}
+
+.username{
+    margin-top: -20px;
+}
+
+.usernamebackground{
+    background: #00264d;
+    width: 1cm;
+    height: 1cm;
+    position: relative;
+    top: 27px;
+    right: 134px;
+}
+
+.usernameicon{
+    width: 80%;
+    color: white;
+    padding-top: 7px;
+}
+
+.usernameinput{
+    width: 7cm;
+    height: 1cm;
+    margin: -100px 5px 10px 40px;
+    font-size: 20px;
+    background: #395173;
+    color: white;
+    border: none;
+    border-radius: none;
+}
+
+#usernamepic{
+    position: relative;
+    left: 20px;
+}
+
+.password{
+    margin-top: -30px;
+}
+
+.passwordbackground{
+    background: #00264d;
+    width: 1cm;
+    height: 1.01cm;
+    position: relative;
+    top: 26px;
+    right: 134px;
+}
+
+.passwordicon{
+    width: 80%;
+    color: white;
+    padding-top: 7px;
+}
+
+.passwordinput{
+    width: 7cm;
+    height: 1cm;
+    margin: -100px 5px 10px 40px;
+    font-size: 20px;
+    background: #395173;
+    border: none;
+}
+
+#passwordpic{
+    position: relative;
+    left: 20px;
+}
+
+.checkbox{
+    margin-top: 40px;
+}
+
+.checkboxremember{
+    margin-right: 100px;
+    font-size: 16px;
+}
+
+.checkboxremember2{
+    position: relative;
+    right: 99px;
+    font-size: 16px;
+    color: #4f576a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkboxforget{   
+    font-size: 16px;
+    color: #4f576a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.already{
+    margin-top: 22px;
+    color: #4f576a;
+    font-size: 18px;
+}
+
+.signup{
+    color: white;
+}
+
+@media only screen and (max-width: 380px){
+    .square{
+            border-radius: 20px;
+            background: #cccccc;
+            width: 9cm;
+            height: 9cm;
+            position: relative;
+            top: 115px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+
+    .username{
+        margin-top: -50px;
+    }
+
+    .checkbox{
+        margin-top: 25px;
+    }
+
+    .checkboxremember{
+        margin-right: 50px;
+        font-size: 18px;
+    }
+
+    .checkboxremember2{
+        position: relative;
+        right: 50px;
+        font-size: 18px;
+        color: #4f576a;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

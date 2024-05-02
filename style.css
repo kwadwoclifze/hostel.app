@@ -1,0 +1,68 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+body{
+    background: linear-gradient(to right, red , yellow)
+}
+    
+
+.selectsquare{
+    border-radius: 20px;
+    background: #cccccc;
+    width: 10cm;
+    height: 7cm;
+    position: relative;
+    top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.booker{
+    border-radius: 20px;
+    background: linear-gradient(to right, red , yellow);
+    width: 6cm;
+    height: 1.3cm;
+    position: relative;
+    top: 70px;
+}
+
+.bookerwords{
+    color: white;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 15px;
+}
+
+.manager{
+    border-radius: 20px;
+    background: linear-gradient(to right, yellow , red);
+    width: 6cm;
+    height: 1.3cm;
+    position: relative;
+    top: 110px;
+}
+
+.managerwords{
+    color: white;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 15px;
+}
+
+@media only screen and (max-width:400px)
+{
+    .selectsquare{
+        border-radius: 20px;
+        background: #cccccc;
+        width: 8cm;
+        height: 7cm;
+        position: relative;
+        top: 200px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
